@@ -1,0 +1,55 @@
+              Python assignment 4 (day 4)
+
+Question 1:
+Find all occurrence of substring in the given string 
+
+Str1="what we think we become"
+Str1.find("we")
+O/p:5
+ 
+Str2="what we think we become"
+Str1.rfind("we")
+O/p: 14
+ 
+Str2="what we think we become"
+Str1.rfind("we")
+Str1.find("we")
+print(Str1)
+ O/p: what we think we become 
+
+Str2.count("we")
+O/p: 2
+
+Question 2:
+Find the
+Islower()---->with different kind of strings:
+
+"python".islower()
+O/p: True
+
+"Python-2009".islower()
+O/p: False
+
+"147258".islower()
+O/p:False
+
+"#%@&€$+-".islower()
+O/p:False
+
+"python1548".islower()
+O/p:True
+
+Isupper()------>with different kind of strings 
+
+  
+"123456".isupper()
+O/p: False
+
+"PYTHON".isupper()
+O/p:True
+
+"12345&@#%$".isupper()
+O/p:False
+
+"PYThon#/!?$€".isupper()
+O/p:False

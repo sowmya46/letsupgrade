@@ -1,0 +1,100 @@
+Day2 assignment
+
+Phython basic syntax
+1)back slash:we use back slash for continuation purpose
+Ex:print("hello\\
+    World"
+Output: hello World
+
+2)Tiple Quote:we have multiple advantage of using Tiple Quote we use for text art and for document string and also we use Tiple Quote for making single quotes.
+Ex:for document string
+print(""" this is sowmya""")
+
+Output: this is sowmya
+
+3)string inside the quotes:
+Ex:print("hello world")
+Output:hello world
+
+4)escape sequence of string:
+   print("hello \n world")   \n-->newline
+Output:hello
+              world
+print("hello\tworld")
+Output: hello world. \t-->tab space
+
+5)formatted output: here we can run multiple statements.
+Ex:name="sowmya"
+Marks=96
+Age=19
+print("the person name is",name, "marks is" ,marks, "age is ", age)
+
+Output: the person name is sowmya,marks is 96,age is 19
+
+Phython variable and assignment statement:
+Phython variable:
+*Variable means linking of the data to a name
+*According to the data type the interpreter reserves the memory space
+*Variable refers to the memory location that contains the data
+
+Rules to define variable:
+*Keywords can't be used as variable
+*A variable can contains letter, numbers,underscore
+*A variable can't start with a number
+*Phython is case sensitive
+*Variable is assigning to data by using Assignment operator
+
+Phython assignment statements
+<variable name>=<data>
+Ex=X=Y=Z=20
+EX:x=20.                        y=20
+id(x).                                id(y)
+(1407569899)               (1407569899)
+Here both addesses are same
+
+Phython operators:
+1)arithmetic operator
+2) comparison operator
+3) assignment operator
+4)bitwise operator
+5) logical operator
+6)membership operator
+7) identity operator
+
+1) arithmetic operator: these operators are used with numeric values to perform mathematical operations.
+Ex:+,-,/,*,//,etc
+Ex:x=5
+y=5
+print (x+y)
+
+Output:10
+
+2) comparison operator:this operator is used to compare the statement values
+Ex: x=5
+y=10
+print(x==y)
+The statement is false
+
+3) assignment operator:it is used to assign the values to variables.
+Ex:. x=5
+print(x)
+
+Output: 5
+
+4) bitwise operator:it is used to compare binary numbers.
+|,&,^,<<
+Ex:a=200
+b=10
+a&b
+
+Output:0
+
+Operator precedence:from highest precedence to lowest precedence
+Ex:10*5+1*4
+
+Output:19
+
+
+
+
+
